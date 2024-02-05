@@ -18,6 +18,8 @@
   "middle_name",
   "last_name",
   "employee_name",
+  "old_no",
+  "position",
   "column_break_9",
   "gender",
   "date_of_birth",
@@ -116,8 +118,7 @@
   "feedback",
   "lft",
   "rgt",
-  "old_parent",
-  "connections_tab"
+  "old_parent"
  ],
  "fields": [
   {
@@ -778,12 +779,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "connections_tab",
-   "fieldtype": "Tab Break",
-   "label": "Connections",
-   "show_dashboard": 1
-  },
-  {
    "fieldname": "column_break_32",
    "fieldtype": "Column Break"
   },
@@ -817,6 +812,16 @@
    "fieldname": "iban",
    "fieldtype": "Data",
    "label": "IBAN"
+  },
+  {
+   "fieldname": "old_no",
+   "fieldtype": "Data",
+   "label": "Old No"
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Data",
+   "label": "Position"
   }
  ],
  "icon": "fa fa-user",
@@ -824,7 +829,7 @@
  "image_field": "image",
  "is_tree": 1,
  "links": [],
- "modified": "2024-01-03 17:36:20.984421",
+ "modified": "2024-02-02 10:36:19.625949",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Employee",
